@@ -1,6 +1,6 @@
 {
   "name": "object-convert",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Convert an object from one schema to another.",
   "homepage": "https://github.com/mslipper/object-convert",
   "author": {
