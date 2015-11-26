@@ -4,7 +4,7 @@ var test = require('tape'),
   converter = require('../lib');
 
 test('type definitions', function(t) {
-  var types = [ String, Boolean, Object ];
+  var types = [ String, Boolean, Object, Date ];
 
   types.forEach(function(type) {
     t.ok(converter.type(type, 'someprop'), 'should allow ' + type.name + ' types');
