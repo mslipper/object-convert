@@ -1,0 +1,39 @@
+{
+  "name": "object-convert",
+  "version": "0.0.0",
+  "description": "Convert an object from one schema to another.",
+  "homepage": "https://github.com/mslipper/object-convert",
+  "author": {
+    "name": "Matthew Slipper",
+    "email": "me@matthewslipper.com",
+    "url": "matthewslipper.com"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "object",
+    "conversion",
+    "json"
+  ],
+  "repository": "mslipper/object-convert",
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-tape": "0.0.6",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.2.2"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "keymirror": "^0.1.1",
+    "lodash": "^3.10.1"
+  }
+}
